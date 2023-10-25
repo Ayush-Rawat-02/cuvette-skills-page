@@ -1,0 +1,28 @@
+.box{
+  /* padding: 0.5rem; */
+  border: 1px solid #EBF0F5;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+}
+
+.flex-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.text-blue{
+  color: #438AF6;
+}
+.text-primary{
+  color:#1E272E;
+}
+.text-secondary{
+  color:#566474;
+}

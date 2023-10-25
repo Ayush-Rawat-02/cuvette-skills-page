@@ -1,0 +1,13 @@
+.progress-bar{
+    height:40px;
+    /* padding: 0 6px; */
+    /* gap:40px; */
+}
+.bar-container{
+    width: 65%;
+    border-radius: 100px;
+}
+.bar-fill{
+    height: 10px;
+    border-radius: 100px;
+}

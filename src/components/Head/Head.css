@@ -1,0 +1,13 @@
+.head{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 100vh;
+    height: auto;
+    /* background-color: orchid; */
+}
+
+.data-container{
+    width: 1292px;
+    /* justify-content: space-around; */
+}

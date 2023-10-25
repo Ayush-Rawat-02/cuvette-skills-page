@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap');
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    /* background-color: aqua; */
+    width: screen;
+    padding: 0 40px;
+    border-bottom: 1px solid #EBF0F5;
+    ;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    /* background-color: red; */
+    border: 1px solid #EBF0F5;
+    border-radius: 10px;
+    height:44px;
+    font-family: 'DM Sans';
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: bold;
+    gap: 10px;
+    cursor: pointer;
+}
+.user:hover{
+    border: 1px solid #0003;
+}
+.user img{
+    /* background-color: blue; */
+    height:26px;
+    width: 26px;
+    border-radius: 3rem;
+    /* margin-right:0.4rem; */
+}

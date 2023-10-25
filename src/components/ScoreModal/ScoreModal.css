@@ -1,0 +1,109 @@
+.score-modal{
+    width:100vw;
+    height: 100vh;
+    background-color: #00000050;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0;
+}
+
+.modal{
+    background-color: white;
+    padding: 40px;
+    width: 800px;
+    /* width: 860px; */
+    height: 441px;
+    /* height: 441px; */
+    border-radius: 10px;
+}
+
+.modal h1{
+    color: #222F3E;
+    font-family: "DM Sans";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.87px;
+}
+
+.modal p{
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.input-area{
+    /* height:210px; */
+    height:180px;
+    /* height:150px; */
+}
+
+.form-buttons{
+    justify-content: end;
+    padding: 0 40px;
+}
+.form-buttons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    /* gap: 8px; */
+    gap: 6px;
+    border: 1px solid #142683;
+    padding: 8px 16px;
+    margin: 0 20px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #142683;
+    cursor: pointer;
+}
+#save-btn{
+    background-color: #142683;
+    color: white;
+}
+#save-btn:hover{
+    background-color: #142683e0;
+}
+#cancel-btn:hover{
+    background-color: #14268350;
+}
+.disc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #142683;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    color: white;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 28px;
+    margin-right: 10px;
+}
+
+input[type=number]{
+    width: 157px;
+    /* height: 44px; */
+    border-radius: 5px;
+    border: 1px solid #142683;
+    padding: 8px 18px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #142683;
+    -moz-appearance: textfield;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
